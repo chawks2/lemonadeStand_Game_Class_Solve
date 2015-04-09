@@ -13,6 +13,8 @@
 		BB469EC31AB8733300DBBEF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB469EC21AB8733300DBBEF4 /* Images.xcassets */; };
 		BB469EC61AB8733300DBBEF4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB469EC41AB8733300DBBEF4 /* LaunchScreen.xib */; };
 		BB469ED21AB8733300DBBEF4 /* LemonadeStand_ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB469ED11AB8733300DBBEF4 /* LemonadeStand_ClassTests.swift */; };
+		BB469EDC1AB878DB00DBBEF4 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB469EDB1AB878DB00DBBEF4 /* Supplies.swift */; };
+		BB469EDE1AB87B1300DBBEF4 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB469EDD1AB87B1300DBBEF4 /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BB469ECB1AB8733300DBBEF4 /* LemonadeStand-ClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LemonadeStand-ClassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB469ED01AB8733300DBBEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB469ED11AB8733300DBBEF4 /* LemonadeStand_ClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStand_ClassTests.swift; sourceTree = "<group>"; };
+		BB469EDB1AB878DB00DBBEF4 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		BB469EDD1AB87B1300DBBEF4 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				BB469EBB1AB8733300DBBEF4 /* AppDelegate.swift */,
 				BB469EBD1AB8733300DBBEF4 /* ViewController.swift */,
+				BB469EDB1AB878DB00DBBEF4 /* Supplies.swift */,
 				BB469EBF1AB8733300DBBEF4 /* Main.storyboard */,
+				BB469EDD1AB87B1300DBBEF4 /* Price.swift */,
 				BB469EC21AB8733300DBBEF4 /* Images.xcassets */,
 				BB469EC41AB8733300DBBEF4 /* LaunchScreen.xib */,
 				BB469EB91AB8733300DBBEF4 /* Supporting Files */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB469EBE1AB8733300DBBEF4 /* ViewController.swift in Sources */,
+				BB469EDE1AB87B1300DBBEF4 /* Price.swift in Sources */,
+				BB469EDC1AB878DB00DBBEF4 /* Supplies.swift in Sources */,
 				BB469EBC1AB8733300DBBEF4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				BB469ED71AB8733300DBBEF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB469ED81AB8733300DBBEF4 /* Build configuration list for PBXNativeTarget "LemonadeStand-ClassTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				BB469EDA1AB8733300DBBEF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
